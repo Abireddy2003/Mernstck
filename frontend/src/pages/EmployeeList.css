@@ -1,0 +1,111 @@
+/* Container for the employee list */
+.employee-list-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+/* Heading styles */
+.employee-list-container h2 {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Table styling */
+.employee-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-list-table th,
+.employee-list-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Header row styles */
+.employee-list-table thead th {
+    background-color: #f0f8ff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Alternate row color for better readability */
+.employee-list-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Image styling within the table */
+.employee-list-table td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Action buttons styling */
+.employee-list-table td button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.employee-list-table td button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the create and search section */
+.create-employee-btn,
+.search-input {
+    padding: 8px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.create-employee-btn {
+    background-color: #00cc66;
+    color: white;
+}
+
+.search-input {
+    width: 50%;
+}
+
+/* Header bar */
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 1.1em;
+}
+
+.header-bar a {
+    color: #00cc66;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.header-bar a:hover {
+    text-decoration: underline;
+}
+
+/* Overall container styling */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}

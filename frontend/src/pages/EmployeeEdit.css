@@ -1,0 +1,85 @@
+/* EmployeeEdit.css */
+
+.employee-edit-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.employee-edit-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.employee-edit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-edit-form div {
+    margin-bottom: 15px;
+}
+
+.employee-edit-form label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.employee-edit-form input[type="text"],
+.employee-edit-form input[type="email"],
+.employee-edit-form select,
+.employee-edit-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+}
+
+.employee-edit-form input[type="text"]:focus,
+.employee-edit-form input[type="email"]:focus,
+.employee-edit-form select:focus,
+.employee-edit-form input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.employee-edit-form input[type="radio"],
+.employee-edit-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.employee-edit-form .error {
+    color: #d9534f;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.employee-edit-form button {
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.employee-edit-form button:hover {
+    background-color: #218838;
+}
+
+.employee-edit-form button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}

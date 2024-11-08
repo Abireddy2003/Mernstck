@@ -1,0 +1,106 @@
+/* Container for the form */
+.create-employee-container {
+    width: 50%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #aaa;
+    padding: 20px;
+}
+
+/* Header and navigation */
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.header-bar a {
+    color: #00cc66;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.header-bar a:hover {
+    text-decoration: underline;
+}
+
+/* Form heading */
+.create-employee-container h2 {
+    background-color: #ffff00;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+/* Form table */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.form-table td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="file"] {
+    padding: 3px;
+}
+
+/* Submit button */
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Validation messages */
+.validation-msg {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* General styling */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}

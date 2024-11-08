@@ -1,0 +1,45 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dce7f7;
+    padding: 10px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.nav span {
+    margin: 0 10px;
+}
+
+.logout {
+    color: red;
+    cursor: pointer;
+}
+
+.sidebar {
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 1px solid #000;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
